@@ -2,7 +2,7 @@ import "../Style/Project.css";
 import Bookmyshow from "../../public/Images/Project/bookmyshow.png";
 import pokemon_card from "../../public/Images/Project/pokemon_card.png";
 import myMart from "../../public/Images/Project/myMart.png";
-import Pichancer from "../../public/Images/Project/Pichancer.png";
+import Pichancer from "../../public/Images/Project/pichancer.png";
 const Project = () => {
   return (
     <div className="project_section text-gray-200">
