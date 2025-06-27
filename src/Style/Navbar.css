@@ -1,0 +1,43 @@
+.mobile_navbar {
+  background-color: rgba(0, 0, 0, 0.35);
+  font-family: "Clash Display", sans-serif;
+  font-weight: 600;
+}
+.mobile_navbar > nav > ul > li {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 600;
+}
+.navbar_logo > h1 {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 400;
+}
+
+ul > li {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 400;
+}
+
+.right_navbar {
+  font-family: "Clash Display", sans-serif;
+  font-weight: 400;
+}
+
+ul > li {
+  text-decoration: none;
+  position: relative;
+}
+ul > li::after {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  border-radius: 100px;
+  width: 0;
+  height: 2px;
+  background-color: #a3b3ff;
+  transition: width 0.3s ease;
+}
+
+ul > li:hover::after {
+  width: 100%;
+}
